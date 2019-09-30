@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ejercicio </title>
+    </head>
+    <body>
+        <form id=formulario1id>
+            <fieldset>
+                <legend>Formulario con campo que utiliza paterrn avanzado</legend>
+
+                <label for="campodniid">DNI</label>
+                <input type="text" required maxlength="8" size="30" pattern="[0-9]{7}[a-zA-Z]{1}" id="campodniid" placeholder="DNI: 7 numeros y una letra" title="El DNI debe contener 8 numeros y una letra">
+                
+                <br><br>
+
+                <input type="submit" value="Validar" >
+            </fieldset>
+        </form>
+    </body>
+</html>
